@@ -568,7 +568,7 @@ input[type="radio"].visually-hidden {
   justify-content: space-between;
 
   margin: 0;
-  margin-bottom: 40px;
+  margin-bottom: 38px;
   padding: 0;
 }
 
@@ -636,6 +636,7 @@ input[type="radio"].visually-hidden {
   border-radius: 10px;
   background-color: #f8f7f4;
 }
+
 .subscription .discription {
   box-sizing: border-box;
   margin: 0;
@@ -692,4 +693,145 @@ input[type="radio"].visually-hidden {
   padding-bottom: 12px;
 
   margin-left: 7px;
+}
+
+.index-column {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 36px;
+}
+
+.open-map {
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 1200px;
+  height: 430px;
+
+  background: url(../img/map.jpg) no-repeat -46px -2px;
+}
+
+.open-map::before{
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 140px;
+  z-index: 20;
+  top: 139px;
+  left: 266px;
+  background: url(../img/svg/pin.svg) no-repeat 0 0;
+}
+
+/* .map-wrapper {
+  margin: 0;
+  padding: 0;
+  width: 1200px;
+  height: 430px;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+} */
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  position: absolute;
+  box-sizing: border-box;
+  top: 63px;
+  right: 27px;
+  width: 302px;
+
+  margin: 0;
+  padding-left: 25px;
+  padding-top: 28px;
+  padding-right: 25px;
+  padding-bottom: 31px;
+
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.contacts p,
+.contacts .phone {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #323232;
+}
+
+.contacts .address,
+.contacts .phone {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  color: #323232;
+}
+
+.contacts .phone {
+  padding-top: 5px;
+  padding-bottom: 3px;
+}
+
+.contacts .address {
+  display: block;
+
+  padding-top: 1px;
+  padding-bottom: 18px;
+}
+
+.contacts .feedback-form {
+  align-self: center;
+  padding-left: 27px;
+  padding-top: 10px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+  margin-top: 22px;
+}
+
+.main-footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+}
+
+.social-item{ 
+  padding: 0;
+  margin: 0;
+  margin-right: 11px;
+}
+
+.social-button svg {
+  opacity: 0.8;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+
+.social-button:hover svg,
+.social-button:focus svg {
+  opacity: 1;
+}
+
+.social-button:active {
+  opacity: 0.7;
 }
