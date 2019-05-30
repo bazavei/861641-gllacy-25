@@ -1749,3 +1749,81 @@ input[type="radio"].visually-hidden {
   margin-bottom: 31px;
 }
 
+.write-us {
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+
+  width: 478px;
+  top: 338px;
+  left: 50%;
+  margin-left: -237px;
+  padding: 16px 24px;
+  padding-bottom: 27px;
+
+  background-color: #f8f7f4;
+  border-radius: 10px;
+}
+.modal {
+  display: none;
+}
+
+.madal-text {
+  margin: 0px;
+  margin-bottom: 19px;
+
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #323232;
+}
+
+.close-modal {
+  position: absolute;
+  top: 14px;
+  right: 17px;
+  font-size: 0px;
+  border: none;
+  width: 18px;
+  height: 17px;
+  margin: 0px;
+  padding: 0px;
+  z-index: 100;
+  background-color: transparent;
+  background: url(../img/svg/cross-big.svg) no-repeat 0 0; 
+}
+
+.write-us-form  p{
+  margin: 0;
+  padding: 0;
+}
+
+.write-us-form input,
+.write-us-form textarea {
+  box-sizing: border-box;
+  width: 267px;
+
+  margin-bottom: 20px;
+
+  border: 1px solid rgba(178, 178, 178, 0.52);
+  border-radius: 5px;
+}
+
+.write-us-form input[type=text],
+.write-us-form input[type=email] {
+  padding: 13px 10px 11px 14px;
+}
+
+.write-us-form textarea{
+  width: 428px;
+  height: 155px;
+  padding: 11px 10px 10px 14px;
+}
+
+.madal-button {
+  float: right;
+  padding: 9px 24px 10px 24px;
+}

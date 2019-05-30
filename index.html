@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
@@ -181,10 +182,9 @@
           <a href="feedback-form.html" class="button feedback-form">Форма обратной связи</a>
         </section>
       </div>
-<!-- модальные окна
-      <section class="write-us modal">
-        <h2 class="visuaaly-hidden">Форма обратной связи</h2>
-        <p>Мы обязательно вам ответим!</p>
+      <section class="write-us modal modal-show">
+        <h2 class="visually-hidden">Форма обратной связи</h2>
+        <p class="madal-text">Мы обязательно вам ответим!</p>
         <form class="write-us-form" action="https://echo.htmlacademy.ru/" method="post">
           <p>
             <label class="visually-hidden" for="name"> Ваше имя:</label>
@@ -198,11 +198,11 @@
             <label class="visually-hidden" for="text">Текс письма:</label>
             <textarea name="text" id="text" placeholder="Напишите что-нибудь..." ></textarea>
           </p>
-          <button class="button" type="submit" name="button">Отправить</button>
+          <button class="madal-button button" type="submit" name="button">Отправить</button>
         </form>
-        <button class="close-popup" type="button">Закрыть</button>
+        <button class="close-modal" type="button">Закрыть</button>
       </section>
-      <section class="map-modal modal">
+      <!-- <section class="map-modal modal">
         <h2 class="visually-hidden">Как до нас добраться?</h2>
 
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037999040354!2d30.322010416394033!3d59.938716271971415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2sBolshaya+Konyushennaya+ul.%2C+19%2C+Sankt-Peterburg%2C+Russia%2C+191186!5e0!3m2!1sen!2s!4v1441888483426" width="940" height="446" allowfullscreen></iframe>
@@ -211,8 +211,7 @@
           alt="Магазин по адресу г.Санкт-Петербург, ул.Большая Конюшенная, д.19/8">
         </p>
         <button class="close-popup" type="button" aria-label="Закрыть"></button>
-      </section>
--->
+      </section> -->
     </main>
     <footer class="main-footer container">
       <div class="footer-social">
