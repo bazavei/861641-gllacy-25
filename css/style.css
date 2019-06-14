@@ -2043,6 +2043,10 @@ background-image: url(../img/slide-3.png);
   display: none;
 }
 
+.modal-show {
+  display: block;
+}
+
 .madal-text {
   margin: 0px;
   margin-bottom: 19px;
